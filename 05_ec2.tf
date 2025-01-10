@@ -21,6 +21,7 @@ resource "aws_instance" "red" {
 
   tags = {
     Name = "Red"
+    AutoStop = "true"
   }
 }
 
